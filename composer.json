@@ -1,11 +1,12 @@
 {
-  "name": "laprotocol/ipfs-php",
+  "name": "ipfsx/ipfs-php",
   "description": "IPFS library in PHP",
   "version": "1.0.0",
   "require": {
     "php": ">=7.1",
     "guzzlehttp/guzzle": "^6.3.0",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "nebulaprotocol/ipfs-php": "^1.0"
   },
   "autoload": {
     "psr-4": {
