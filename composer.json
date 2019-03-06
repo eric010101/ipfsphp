@@ -1,5 +1,5 @@
 {
-  "name": "nebulaprotocol/ipfs-php",
+  "name": "laprotocol/ipfs-php",
   "description": "IPFS library in PHP",
   "version": "1.0.0",
   "require": {
