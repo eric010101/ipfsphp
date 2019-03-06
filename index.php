@@ -5,8 +5,8 @@ $filename= $_GET['filename'];
 $port= $_GET['port'];
 $blockx= $_GET['block'];
 $type= $_GET['type'];
-$v2t= $_GET['v2t'];
-$v2t_text = file_get_contents('http://localhost/v2t/'.$v2t);
+$v2t= "";//$_GET['v2t'];
+$v2t_text = "";//file_get_contents('http://localhost/v2t/'.$v2t);
 $ref_v='';
 $ref_a='';
 $ref_i='images/1-p1.jpg';
@@ -33,9 +33,11 @@ if ($type=='image') {
 		}
 
 //require('./exampleBase.php');
+
 require('../phpweb3/vendor/autoload.php');
 use Web3\Web3;
 $web3 = new Web3('http://localhost:8546/');
+
 $eth = $web3->eth;
 
 //echo 'Eth Get Account and Balance' . PHP_EOL;
